@@ -1,0 +1,58 @@
+header{
+    background-image: url('../assets/img/background_header.jpg');
+    background-size: cover;
+    padding: 20px 0;
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .usuario-informacoes{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+        div{
+            margin-left: 16px;
+        }
+        
+        img{
+            width: 50px;
+            border-radius: 50%;
+        }
+    }
+}
+
+main{
+
+    div.row{
+        height: 100vh;
+    }
+
+    .menu{
+        background-color: #2d2154;
+        color: #FFF;
+
+        div{
+            padding: 8px;
+        }
+
+        div:hover{
+            background-color: #3a2b6d;
+            cursor: pointer;
+        }
+
+        div.item{
+            padding: 8px 8px 8px 24px;
+            font-size: 12px;
+        }
+    }
+
+}
+
+
+.borda{
+    border: 1px solid red;
+}
