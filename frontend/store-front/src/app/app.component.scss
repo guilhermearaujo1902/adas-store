@@ -50,6 +50,40 @@ main{
         }
     }
 
+    .modulo{
+
+        .titulo{
+            background-color: #f6f4f4;
+            padding: 16px;
+            border-left: solid 12px #d9326f;
+        }
+
+        .botoes{
+            display: flex;
+            justify-content: end;
+            padding: 12px 0;
+
+            button{
+                border: none;
+                background-color: #c6074d;
+                color: #FFF;
+                padding: 8px 24px;
+                margin-left: 8px;
+                border-radius: 4px;
+            }
+
+            button:hover{
+                background-color: #a1043d;
+            }
+        }
+
+        .tabela{
+            background-color: #f6f4f4;
+            padding: 16px;
+        }
+
+    }
+
 }
 
 
