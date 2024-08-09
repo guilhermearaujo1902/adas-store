@@ -1,0 +1,31 @@
+form{
+
+    input[type="text"]{
+        width: 100%;
+        padding: 8px;
+        border-radius: 4px;
+        border: solid 1px silver;
+    }
+
+    label{
+        font-size: 16px;
+    }
+
+    div{
+        margin: 16px 0;
+    }
+
+    button{
+        border: none;
+        background-color: #c6074d;
+        color: #FFF;
+        padding: 8px 24px;
+        margin-right: 8px;
+        border-radius: 4px;
+    }
+
+    button:hover{
+        background-color: #a1043d;
+    }
+
+}
